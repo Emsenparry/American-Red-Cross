@@ -9,17 +9,19 @@
 
 .main-header {
   display: flex;
-  justify-content: center;
+  justify-content: space-around;
   align-items: center;
-  background-color: #D7D7D8;
-  padding: 1em 0;
+  background-color: #FFF;
+  padding: 1.3em 0;
+  box-shadow: 0px 0px 20px 2px rgba(0, 0, 0, 0.57);
 }
 .main-header img {
-  width: 10%;
+  width: 10rem;
 }
 .main-header nav a {
   margin: 0 1.2em;
-  font-size: 1.4em;
+  font-size: 1.3em;
   text-decoration: none;
   font-family: Bold;
+  color: #6D6E70;
 }/*# sourceMappingURL=stylesheet.css.map */

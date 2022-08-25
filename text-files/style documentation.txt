@@ -27,4 +27,4 @@ Ny parcial med mixin som indeholder: sort box(div), h3 med farve, img af mail ic
 
 
 Ekstra – Forms og buttons
-Lav en parcial med en mixin som har: baggrundsfarve, hvid farve og en hover effekt. 
+Lav en parcial med en mixin som har: baggrundsfarve, hvid farve tekst og en hover effekt. 
