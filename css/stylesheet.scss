@@ -1,0 +1,26 @@
+@use "colors" as c; 
+@use "fonts";
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.main-header{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: c.$neu-light-gray;
+    padding: 1em 0;
+    img{
+        width: 10%;
+    }
+    nav{
+        a{
+            margin: 0 1.2em;
+            font-size: 1.4em;
+            text-decoration: none;
+            font-family: Bold;
+        }
+    }
+}
