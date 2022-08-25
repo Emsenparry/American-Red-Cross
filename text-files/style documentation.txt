@@ -1,0 +1,30 @@
+Sektion 1, 3, 5 og 7:
+Lav en parcial med en mixin i som indeholder: H2, H3 med farve og størrelse. Billede som fylder hele sektionen.
+Det der skal ændres er placeringen af containeren.
+
+Sektion 2:
+Lav en ny mixin i første parcial som har: H2, H3, p med farve og størrelse. Et billede som fylder det hele.
+
+Sektion 4: 
+Lav en parcial med en mixin der indeholder: H2, H3 med farve og størrelse som står i midten.
+Lav et nyt mixin i den samme parcial som har: Img med samme størrelse og grid. P som også har samme farve og størrelse.
+
+Sektion 6: 
+I samme parcial som sektion 4 får du den samme mixin angående H2 og H3. 
+Derefter laves en nyt mixin med: img som har samme størrelse, tekst, shadow, round corners på boksense. 
+
+Sektion 8:
+I samme parcial som sektion 4 får du den samme mixin angående H2 og H3. 
+Nyt mixin med: Img med samme størrelse og grid, gray-ish bokse. 
+
+Sektion 9:
+I samme parcial som sektion 4 får du den samme mixin angående H2 og H3.
+Samme som i sektion 4, der re-user du det mixin med kortene.
+
+Sektion 10: 
+Ny parcial med mixin som indeholder: sort box(div), h3 med farve, img af mail icon, paragraf med farve.
+
+
+
+Ekstra – Forms og buttons
+Lav en parcial med en mixin som har: baggrundsfarve, hvid farve og en hover effekt. 
