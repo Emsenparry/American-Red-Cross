@@ -1,0 +1,25 @@
+Partials:
+-	Man kan lave en partial som hedder ’Colors’ hvor man kan lave variabler med deres color palette i.
+
+f.eks: 
+$pri-white: #FFF;
+$neu-light-gray: #D7D7D8;
+$sec-beige: E2D7AC; 
+
+-	En partial med logoer med 3 forskellige mixins i.
+
+Mixin:
+-	Man kan lave en partial med variabler med de forskellige fonte og med en mixin i?
+
+F.eks:
+
+Variabler:
+$main-font: Akzidenz-Grotesk; 
+$secondary-font: Georgia Regular; 
+
+
+Mixin:
+@mixin main-typo{
+Font-family: $main-font;
+Color: color variable;
+}
