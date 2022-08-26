@@ -31,11 +31,70 @@ main{
     max-width: 1350px;
     margin: auto;
 }
-
+// SECTION ONE 
 .section-one{
     @include sections.section-one;
+    .container{
+        top: 8vw;
+        left: 2vw;
+    }
 }
-
+// SECTION TWO
 .section-two{
     @include sections.section-two;
+}
+// SECTION THREE
+.section-three{
+    @include sections.section-one;
+    margin-top: 0.5em;
+    .container{
+        top: 8vw;
+        right: 8vw;
+        width: 40%;
+        p{
+            font-size: 1.05vw;
+            margin-top: 3em;
+            font-family: Bold;
+            font-weight: 400;
+            color: c.$pri-white;
+            width: 120%;
+        }
+    }
+    .form-container{
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        max-width: 100%;
+        margin-top: 2em;
+        input, select, button{
+            margin: 0;
+            padding: 0;
+            border-radius: 3px;
+        }
+        button{
+            margin-left: 1em;
+            padding: 0.5em 1em;
+        }
+        select{
+            padding: 0 1.2em;
+            option{
+                font-weight: 600;
+                color: c.$pri-cool-gray;
+                font-size: 1vw;
+            }
+        }
+        input{
+            margin-left: 1em;
+            width: 20%;
+            border: none;
+        }
+        input::-webkit-outer-spin-button,
+        input::-webkit-inner-spin-button {
+        -webkit-appearance: none;
+        }
+        ::placeholder{
+            font-size: 1vw;
+            padding-left: 1em;
+        }
+    }
 }

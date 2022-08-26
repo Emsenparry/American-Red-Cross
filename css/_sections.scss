@@ -7,8 +7,6 @@
     margin-bottom: 0.5em;
     .container{
         position: absolute; 
-        top: 8vw;
-        left: 2vw;
         h2{
             font-size: 3.8vw;
             color: c.$pri-white;
@@ -63,7 +61,6 @@
         flex-wrap: wrap;
         width: 100%;
         margin-top: 2em;
-
         input::-webkit-outer-spin-button,
         input::-webkit-inner-spin-button {
         -webkit-appearance: none;
