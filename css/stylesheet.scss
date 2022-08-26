@@ -1,6 +1,6 @@
 @use "colors" as c; 
 @use "fonts";
-
+@use "sections";
 *{
     margin: 0;
     padding: 0;
@@ -25,4 +25,17 @@
             color: c.$pri-cool-gray;
         }
     }
+}
+
+main{
+    max-width: 1350px;
+    margin: auto;
+}
+
+.section-one{
+    @include sections.section-one;
+}
+
+.section-two{
+    @include sections.section-two;
 }
