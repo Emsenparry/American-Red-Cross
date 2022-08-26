@@ -11,6 +11,10 @@
   padding: 0;
 }
 
+body {
+  background-color: #D7D7D8;
+}
+
 .main-header {
   display: flex;
   justify-content: space-around;
@@ -33,6 +37,7 @@
 main {
   max-width: 1350px;
   margin: auto;
+  background-color: #FFF;
 }
 
 .section-one {
@@ -211,4 +216,48 @@ main {
 .section-three .form-container ::placeholder {
   font-size: 1vw;
   padding-left: 1em;
+}
+
+.section-four {
+  text-align: center;
+  margin-top: 1em;
+}
+.section-four h2 {
+  font-size: 3.5rem;
+  font-family: Bold;
+}
+.section-four h3 {
+  font-size: 1.4rem;
+  font-family: Bold;
+  color: #6D6E70;
+  font-weight: 300;
+  margin-top: 0.5em;
+  margin-bottom: 2em;
+}
+.section-four .link {
+  text-decoration: none;
+  font-size: 1.5rem;
+  font-family: Bold;
+}
+.section-four .gallery {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  text-align: center;
+  margin-top: 4em;
+}
+.section-four .gallery div {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  margin-bottom: 5em;
+}
+.section-four .gallery img {
+  width: 10vw;
+}
+.section-four .gallery a {
+  margin-top: 2em;
+  font-family: bold;
+  color: #56A0D3;
+  font-size: 1.1em;
+  text-decoration: none;
 }/*# sourceMappingURL=stylesheet.css.map */

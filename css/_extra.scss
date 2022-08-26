@@ -1,0 +1,18 @@
+@use "colors" as c;
+@use "fonts";
+
+@mixin head-title{
+    text-align: center;
+    h2{
+        font-size: 3.5rem;
+        font-family: Bold;
+    }
+    h3{
+        font-size: 1.4rem;
+        font-family: Bold;
+        color: c.$pri-cool-gray;
+        font-weight: 300;
+        margin-top: 0.5em;
+        margin-bottom: 2em;
+    }
+}

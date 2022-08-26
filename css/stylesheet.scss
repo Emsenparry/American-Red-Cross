@@ -1,9 +1,13 @@
 @use "colors" as c; 
 @use "fonts";
 @use "sections";
+@use "extra";
 *{
     margin: 0;
     padding: 0;
+}
+body{
+    background-color: c.$neu-light-gray;
 }
 
 .main-header{
@@ -30,6 +34,7 @@
 main{
     max-width: 1350px;
     margin: auto;
+    background-color: c.$pri-white;
 }
 // SECTION ONE 
 .section-one{
@@ -95,6 +100,39 @@ main{
         ::placeholder{
             font-size: 1vw;
             padding-left: 1em;
+        }
+    }
+}
+
+// SECTION FOUR / GALLERY
+.section-four{
+    @include extra.head-title;
+    margin-top: 1em;
+    .link{
+        text-decoration: none;
+        font-size: 1.5rem;
+        font-family: Bold;
+    }
+    .gallery{
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+        text-align: center;
+        margin-top: 4em;
+        div{
+            display: flex;
+            align-items: center;
+            flex-direction: column;
+            margin-bottom: 5em;
+        }
+        img{
+            width: 10vw;
+        }
+        a{
+            margin-top: 2em;
+            font-family: bold;
+            color: c.$sec-sky-blue;
+            font-size: 1.1em;
+            text-decoration: none;
         }
     }
 }
